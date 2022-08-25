@@ -1,8 +1,8 @@
 # cps02
 
-Every Answers will be Uploaded ASAP
+All Answers will be Uploaded ASAP
 
-if u find any error do raise issue
+If you find any errors , feel free to raise an issue
 
 ==============        Thank you         =================
-===  Happpy Copy Pasting   =======
+===============  Happpy Copy Pasting   ==================
