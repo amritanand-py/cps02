@@ -1,0 +1,43 @@
+#include <cmath>
+#include <cstdio>
+#include<bits/stdc++.h>
+using namespace std;
+
+
+int main() {
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */   
+    int a;
+    
+    cin>>a;
+    int arr[a];
+    for(int i=0;i<a;i++){
+        cin>>arr[i];
+    }int tar;
+    cin>>tar;
+    int count=0;
+    sort(arr,arr+a);
+    int i=0;
+//     while(i<a){
+//         if(j<0){
+//             i++;
+//             j=a-1;
+//         }
+//         if(arr[i]+arr[j]==tar){
+//             count++;
+//             i++;
+//             j=a-1;
+            
+//         }
+//         j--;
+//     }
+    while(i<a){
+        int k=tar-arr[i];
+         if (binary_search(arr, arr + a, k)){
+             count++;
+         }
+        i++;
+    }
+     
+    cout<<count;
+    return 0;
+}
